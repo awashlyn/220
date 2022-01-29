@@ -13,9 +13,6 @@ What the user will enter to get the computed value.
 
 Step-by-step list:
 1. Get forumulas used from document
-Geometric mean = nth root of the product of all values where n is the total number of values
-Harmonic mean = total number of values divided by sum of all inverses of values
-Root Mean Square = it is the root of the mean of all individual squares of the values.
 2. import math to use sqrt()
 3. use range and with the different numbers to get
 4. Write out user input

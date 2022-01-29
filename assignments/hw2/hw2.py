@@ -12,16 +12,12 @@ import math
 # n  = number... use 'while'
 def sum_of_threes():
     upperbound = int(input("What is the upper bound?"))
-    # using 'int' because it needs a number
-    s = 0
-    k = 3
-    while(k<=n):
-        s+=k
-        k+=3
-    print("Sum is:",s)
+    s=0
+    for i in range(3,s+1,3):
+    print(i,end=' ')
+    s+=i
+    print("Sum is= ", s)
 sum_of_threes()
-
-
 
 
 def multiplication_table():
@@ -48,7 +44,7 @@ def sum_squares(start, stop):
     # What is 'x times x' added to 'x times x' and what could the ranges be?
     total = 0
     for i in range(start, stop+1):
-        total += i*i
+    total += i*i
     return total
     lr = int(input("Enter lower range: "))
     ur = int(input("Enter upper range: "))
@@ -56,13 +52,14 @@ def sum_squares(start, stop):
 sum_squares()
 
 
-
-
-
-
 def power():
-    pass
-
+    base=int(input('Enter a base: '))
+    exponent=int(input('Enter an exponent: '))
+    ans=1
+    for i in range(exponent):
+        ans=ans*base
+    print(base,'^',exponent,'=',ans)
+power()
 
 if __name__ == '__main__':
     pass
